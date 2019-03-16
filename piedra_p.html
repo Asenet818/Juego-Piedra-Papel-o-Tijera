@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Funciones</title>
+  <link rel="stylesheet" href="estilop.css">
+</head>
+
+<body>
+  <section class="container">
+    <div class="item header">
+        <h1>  <img class="logo" src="logo.jpg" width="13%" long="10%">Juguemos Piedra Papel o Tijera!!</h1>
+    </div>
+  <div class="item juego"> 
+  <nav class="figuras">
+        <h2 class="elige">Elige!!</h2>
+        <button onclick="opcion(0);"><img src="piedra.jpg" width="50%"></button>
+        <button onclick="opcion(1);"><img src="papel.jpg" width="50%"></button>
+        <button onclick="opcion(2);"><img src="tijera.jpg"width="50%"></button>
+  </nav>
+  </div>
+    <div class="item left">
+     <div class="item datos">
+     <div>
+       <p>
+        <span>Eres:</span><span id="eligio"></span>
+       </p>
+       <p>
+        <span>Yo soy:</span><span id="yo"></span>
+       </p>
+       <p>
+        <span>Resultado:</span><span id="ga"></span>    
+       </p>          
+     </div>
+     </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="piedra_p_t.js"></script>
+</body>
+</html>

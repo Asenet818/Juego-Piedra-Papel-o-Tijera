@@ -1,0 +1,53 @@
+body {
+  font-family: Arial;
+}
+.container {
+  display: grid;
+  grid-template: 26% 74%/ 25% 75%;
+  /*grid-gap: filas columnas;*/
+  grid-gap: 10px;
+  height: 100vh;
+  grid-template-areas: "header header"
+                       "left contenido";
+  height: 100vh;
+}
+.item {
+  background: #4C9AFF;
+  border: 1px solid burlywood;
+}
+.header {
+  grid-area: header;   
+  justify-content: center;
+  display: flex;
+}
+.header.h1 {
+  text-align: center;
+  width: 40%; 
+  display: flex;
+}
+.logo {
+  margin-right: 250px;
+}
+.left {
+  grid-area: left;
+}
+.nombre {
+  margin-left: 5%;
+  margin: center;
+}
+.left .datos {
+  background: #F9A32A;
+  margin: 20% 10% 5% 10%;
+  border-radius: 10px;
+  border-color:rgb(160, 160, 129);
+  height: 60%;
+  font-size: x-large;
+  text-align: left;
+  padding-top: 50px;
+}
+.figuras {
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+
